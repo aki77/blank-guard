@@ -1,0 +1,21 @@
+{
+  "name": "blank-guard",
+  "version": "0.1.0",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "tsc"
+  },
+  "author": "aki77",
+  "repository": "https://github.com/aki77/blank-guard",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^3.7.2"
+  },
+  "files": [
+    "README.md",
+    "package.json",
+    "lib"
+  ]
+}
